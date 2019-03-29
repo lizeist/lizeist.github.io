@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro";
   font-weight: 300;
