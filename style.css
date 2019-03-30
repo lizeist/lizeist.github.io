@@ -117,12 +117,11 @@ h2, h3, h4, p {
   padding: 2em;
   width: 33%;
   text-align: center;
-  margin: auto;
+  min-height: 20em;
 }
 
 .prj h1 {
   color: #FFF;
-  padding: .5em;
 }
 
 .prj p {
@@ -130,7 +129,7 @@ h2, h3, h4, p {
   text-align: inherit;
 }
 
-.prj img {
+.prj-img {
 	object-fit: cover;
 }
 
