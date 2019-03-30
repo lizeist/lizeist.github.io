@@ -109,6 +109,21 @@ h2, h3, h4, p {
   margin-top: 6.25em;
   margin-bottom: 6.25em;
   text-align: center;
+  width: 33%;
+}
+
+#prj {
+  display:inline-block;
+  padding: 1em;
+  margin-top: 6.25em;
+  margin-bottom: 6.25em;
+  text-align: center;
+  width: 33%;
+  height: 15vh;
+}
+
+#prj:hover {
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/img/bg-img-prj-everytown.jpg) no-repeat center center fixed;
 }
 
 #about h1 {
@@ -308,6 +323,9 @@ h2, h3, h4, p {
 
 .inner-container {
   clear: both;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   max-width: 100%;
   word-wrap: break-word;
   min-width: 33%;
