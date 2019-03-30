@@ -106,8 +106,7 @@ h2, h3, h4, p {
 #about {
   display:inline-block;
   padding: 1em;
-  margin-top: 6.25em;
-  margin-bottom: 6.25em;
+
   text-align: center;
   width: 33%;
 }
@@ -115,11 +114,12 @@ h2, h3, h4, p {
 .prj {
   color: #FFF;
   display:inline-block;
-  padding: 1em;
+  padding: 2em;
   object-fit: cover;
   width: 33%;
+  height: 25vh;
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .prj h1 {
@@ -344,15 +344,11 @@ h2, h3, h4, p {
 }
 
 .inner-container {
-  clear: both;
-  flex-direction: row;
-  flex-wrap: wrap;
   max-width: 100%;
   word-wrap: break-word;
   min-width: 33%;
   padding: 1em;
-  min-height: 85vh;
-  padding-bottom: 6.25em;
+  text-align: center;
 }
 
 .list {
