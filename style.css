@@ -116,15 +116,18 @@ h2, h3, h4, p {
   color: #FFF;
   display:inline-block;
   padding: 1em;
-  margin-top: 6.25em;
-  margin-bottom: 6.25em;
   object-fit: cover;
-  text-align: center;
   width: 33%;
+  height: 40vh;
 }
 
 .prj h1 {
   color: #FFF;
+}
+
+.prj p {
+  color: #FFF;
+  text-align: inherit;
 }
 
 #everytown {
