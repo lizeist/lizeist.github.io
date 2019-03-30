@@ -115,7 +115,6 @@ h2, h3, h4, p {
   color: #FFF;
   display:inline-block;
   padding: 2em;
-  object-fit: cover;
   width: 33%;
   height: 25vh;
   text-align: center;
@@ -130,6 +129,10 @@ h2, h3, h4, p {
 .prj p {
   color: #FFF;
   text-align: inherit;
+}
+
+.prj img {
+	object-fit: cover;
 }
 
 #everytown {
