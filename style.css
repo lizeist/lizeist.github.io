@@ -124,7 +124,7 @@ h2, h3, h4, p {
 }
 
 #prj:hover {
-	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/bg-img-prj-everytown.jpg) no-repeat center center;
 }
 
 #about h1 {
