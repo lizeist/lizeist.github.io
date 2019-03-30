@@ -106,7 +106,6 @@ h2, h3, h4, p {
 #about {
   display:inline-block;
   padding: 1em;
-
   text-align: center;
   width: 33%;
 }
@@ -114,9 +113,7 @@ h2, h3, h4, p {
 .prj {
   color: #FFF;
   display:inline-block;
-  padding: 2em;
   width: 33%;
-  text-align: center;
   min-height: 20em;
 }
 
@@ -129,24 +126,24 @@ h2, h3, h4, p {
   text-align: inherit;
 }
 
-.prj-img {
-	object-fit: cover;
-}
-
 #everytown {
   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/img/bg-img-prj-everytown.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #everytown:hover {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/bg-img-prj-everytown.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #sandy-relief {
   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/img/bg-img-prj-sandy-relief.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #sandy-relief:hover {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/bg-img-prj-sandy-relief.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 #about h1 {
